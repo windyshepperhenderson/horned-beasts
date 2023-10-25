@@ -6,6 +6,7 @@ export default function Gallery(props) {
       {props.beastList.map((beast) => {
         return (
           <Hornedbeasts
+            key={beast._id}
             title={beast.title}
             image_url={beast.image_url}
             description={beast.description}
