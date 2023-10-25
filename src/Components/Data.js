@@ -105,7 +105,7 @@ let beastListArr = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg/220px-Markhor_Schraubenziege_Capra_falconeri_Zoo_Augsburg-02.jpg",
     title: "Markhor",
     description:
-      "These wild goats eat snakes, then secrete a foam that locals fight over for the antivemon properties -- how cool is that?",
+      "These wild goats eat snakes, then                                                                  secrete a foam that locals fight over for the antivemon properties -- how cool is that?",
     keyword: "markhor",
     horns: 2,
   },

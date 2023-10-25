@@ -1,7 +1,10 @@
 body {
   background-color: burlywood;
+  background-image: url("../src/Components/horn.png");
+  background-repeat: repeat;
+  background-size: 5%;
 }
-.modal {
+.SelectedBeast {
   height: 100vh;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.7);
@@ -14,13 +17,41 @@ body {
   color: white;
 }
 
+.SelectedBeast img {
+  height: 500px;
+  border: 10px solid rgba(255, 187, 0, 0.767);
+  border-radius: 10px;
+}
+
+.SelectedBeast p {
+  height: 20px;
+  border: 5px solid blue;
+  background-color: blue;
+  border-radius: 10px;
+  border: 5px solid rgba(255, 187, 0, 0.767);
+}
+
 .header {
   text-align: center;
   font: Luminari, fantasy;
-  padding: 20px;
+  padding: 30px;
+  background-color: burlywood;
+  border: 10px solid rgba(255, 187, 0, 0.767);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }
 .footer {
   text-align: center;
+  font: Luminari, fantasy;
+  padding: 20px;
+  background-color: burlywood;
+  border: 10px solid rgba(255, 187, 0, 0.767);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }
 
 .gallery {
@@ -35,11 +66,16 @@ body {
 }
 
 .hornedBeasts {
-  border: 10px solid red;
+  border: 10px solid rgba(255, 187, 0, 0.767);
   border-radius: 10px;
   padding: 5px;
+  background-color: burlywood;
 }
 
 .heart {
+  background-color: blue;
+}
+
+.scared {
   background-color: blue;
 }

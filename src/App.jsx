@@ -17,7 +17,6 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={handleShowSelectedBeast}>Enlarge</button>
       {/* We are conditionally rendering Modal, based on whether showModal is true or false */}
       {showSelectedBeast && (
         <SelectedBeast handleShowSelectedBeast={handleShowSelectedBeast} />
