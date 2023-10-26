@@ -4,6 +4,7 @@ body {
   background-repeat: repeat;
   background-size: 5%;
 }
+
 .SelectedBeast {
   height: 100vh;
   width: 100vw;
@@ -34,14 +35,36 @@ body {
 .header {
   text-align: center;
   font: Luminari, fantasy;
-  padding: 30px;
+  padding: 20px;
   background-color: burlywood;
   border: 10px solid rgba(255, 187, 0, 0.767);
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 40px;
   border-radius: 10px;
 }
+
+.dropDownFilter {
+  border: 10px solid rgba(255, 187, 0, 0.767);
+  width: fit-content;
+  background-color: burlywood;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 5px;
+  float: left;
+}
+
+.titleInput {
+  border: 10px solid rgba(255, 187, 0, 0.767);
+  width: fit-content;
+  background-color: burlywood;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 5px;
+  float: right;
+}
+
 .footer {
   text-align: center;
   font: Luminari, fantasy;
